@@ -18,7 +18,7 @@ public class Constants {
 		public static final String GOOGLE_PLACES_URL = "https://maps.googleapis.com/";
 		public static final String JSON_PLACEHOLDER_URL = "https://jsonplaceholder.typicode.com/";
 		public static String REQUESTBIN_URL = "https://ene53trtecoc.x.pipedream.net";
-
+		public static String REQUSTBIN_URL = "https://enhn7stoyd7v.x.pipedream.net";
 	}
 
 	public static class Path {

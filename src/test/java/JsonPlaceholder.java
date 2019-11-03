@@ -1,6 +1,5 @@
 import config.TestConfig;
 import org.testng.annotations.Test;
-
 import static constants.Constants.Actions.*;
 import static constants.Constants.Actions.JSONPLACEHOLDER_POST;
 import static io.restassured.RestAssured.given;
@@ -63,7 +62,7 @@ public class JsonPlaceholder extends TestConfig {
 			"  </Employee>\n" +
 			"</Company>";
 
-		given().spec(requestSpecificationForUdemyCourse).body(postXmlBody).log().uri().
+		given().spec(requestSpecificationXml).body(postXmlBody).log().uri().
 			when().post("").
 			then().log().body().statusCode(200);
 	}

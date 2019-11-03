@@ -1,6 +1,5 @@
 import config.TestConfig;
 import org.testng.annotations.Test;
-
 import static constants.Constants.Actions.SWAPI_GET_PEOPLE;
 import static io.restassured.RestAssured.*;
 
