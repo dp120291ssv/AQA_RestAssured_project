@@ -8,7 +8,7 @@ import static constants.Constants.Server.SWAPI_URL;
 public class Constants {
 
 	public static class RunVariables {
-		public static String server = REQUESTBIN_URL;
+		public static String server = JSON_PLACEHOLDER_URL;
 		public static String path = "";
 
 	}
@@ -35,6 +35,6 @@ public class Constants {
 		public static final String JSON_PLACEHOLDER_POST = "posts/";
 		public static final String JSON_PLACEHOLDER_PUT = "posts/1";
 		public static final String JSON_PLACEHOLDER_DELETE = "posts/1";
-
+		public static String JSONPLACEHOLDER_POST = "posts/";
 	}
 }

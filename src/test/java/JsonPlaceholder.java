@@ -2,6 +2,7 @@ import config.TestConfig;
 import org.testng.annotations.Test;
 
 import static constants.Constants.Actions.*;
+import static constants.Constants.Actions.JSONPLACEHOLDER_POST;
 import static io.restassured.RestAssured.given;
 
 public class JsonPlaceholder extends TestConfig {
@@ -31,6 +32,19 @@ public class JsonPlaceholder extends TestConfig {
 		given().log().uri().
 			when().delete(JSON_PLACEHOLDER_DELETE).
 			then().log().body().statusCode(200);
+	}
+
+	@Test
+	public void PostWithJson(){
+		String postJsonBody = "{\n" +
+			"\"title\":\"foo\",\n" +
+			"\"body\":\"bar\",\n" +
+			"\"userId\":1\n" +
+			"}";
+
+		given().body(postJsonBody).log().uri().
+			when().post(JSONPLACEHOLDER_POST).
+			then().log().body().statusCode(201);
 	}
 
 	@Test
