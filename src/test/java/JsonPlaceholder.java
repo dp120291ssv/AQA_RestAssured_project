@@ -63,7 +63,7 @@ public class JsonPlaceholder extends TestConfig {
 			"  </Employee>\n" +
 			"</Company>";
 
-		given().body(postXmlBody).log().uri().
+		given().spec(requestSpecificationForUdemyCourse).body(postXmlBody).log().uri().
 			when().post("").
 			then().log().body().statusCode(200);
 	}
