@@ -16,24 +16,13 @@ public class FirstTest extends TestConfig{
 	@Test
 	public void myFirstTest() {
 		given().
-			log().uri().
-//			ifValidationFails().
+			log().
+			ifValidationFails().log().all().
 		when().get(SWAPI_GET_PEOPLE + "1").
 		then().
 			log().body().
 			statusCode(200);
 	}
-
-	/**
-	 *
-	 * Hamcrest помогает писать тесты.
-	 * Не надо путать его с полнофункциональными фреймворками для тестирования, такими как JUnit.
-	 * Hamcrest – это всего лишь библиотека matcher-ов, которая используется в паре с JUnit или другим
-	 * аналогичным фреймворком для тестирования.
-
-	 Название Hamcrest является анаграммой «matcher». Matcher – это такое выражение,
-	 тестирующее на совпадение с определенным условием.
-	 * */
 
 	@Test
 	public void getSwapiAllResourcesAssertionExample(){

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0075f1b-c390-4196-9f73-42c4095a3759" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/TestConfig.class" afterPath="$PROJECT_DIR$/target/classes/config/TestConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
     </list>
@@ -45,8 +43,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="164">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -499,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573119203062</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add tests for extract()&#10;add assertions with Hamcrest">
+      <created>1573132621890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573132621890</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -573,7 +578,8 @@
     <MESSAGE value="add requestSpecification" />
     <MESSAGE value="add responseSpecification" />
     <MESSAGE value="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample" />
+    <MESSAGE value="add tests for extract()&#10;add assertions with Hamcrest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for extract()&#10;add assertions with Hamcrest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
