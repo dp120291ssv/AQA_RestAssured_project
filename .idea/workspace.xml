@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0075f1b-c390-4196-9f73-42c4095a3759" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/TestConfig.class" afterPath="$PROJECT_DIR$/target/classes/config/TestConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,8 +45,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="960">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonPlaceholder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="66" column="66" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
+              <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample">
+  <component name="RunManager" selected="TestNG.FirstTest.getAllDataFromSwapi">
     <configuration name="FirstTest.AssertionExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="udemyCourse" />
@@ -237,6 +238,87 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="FirstTest.getAllDataFromSwapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="udemyCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="getAllDataFromSwapi" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="FirstTest.getCookieFromSwapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="udemyCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="getCookieFromSwapi" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="FirstTest.getHeadersFromSwapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="udemyCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="getHeadersFromSwapi" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="udemyCourse" />
@@ -246,87 +328,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
       <option name="METHOD_NAME" value="getSwapiPeopleResourcesAssertionExample" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="JsonPlaceholder" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="udemyCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPlaceholder" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="JsonPlaceholder.PostWithJson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="udemyCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPlaceholder" />
-      <option name="METHOD_NAME" value="PostWithJson" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="JsonPlaceholder.PostWithXml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="udemyCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPlaceholder" />
-      <option name="METHOD_NAME" value="PostWithXml" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -426,19 +427,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder.PostWithXml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder.PostWithJson" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder.PostWithXml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.JsonPlaceholder.PostWithJson" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -491,24 +492,37 @@
       <option name="project" value="LOCAL" />
       <updated>1573115972170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample">
+      <created>1573119203062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573119203062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 45m 08s.xml">
-      <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 50m 10s.xml">
-      <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 50m 57s.xml">
-      <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 58m 12s.xml">
-      <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 58m 46s.xml">
       <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 08m 14s.xml">
+      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 09m 06s.xml">
+      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 15m 31s.xml">
+      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getCookieFromSwapi - 2019.11.07 at 14h 50m 21s.xml">
+      <configuration name="FirstTest.getCookieFromSwapi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getHeadersFromSwapi - 2019.11.07 at 14h 45m 38s.xml">
+      <configuration name="FirstTest.getHeadersFromSwapi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_getHeadersFromSwapi - 2019.11.07 at 14h 46m 51s.xml">
+      <configuration name="FirstTest.getHeadersFromSwapi" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 24m 39s.xml">
       <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
@@ -518,12 +532,6 @@
     </history-entry>
     <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 31m 05s.xml">
       <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JsonPlaceholder_PostWithXml - 2019.11.03 at 16h 02m 33s.xml">
-      <configuration name="JsonPlaceholder.PostWithXml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JsonPlaceholder_PostWithXml - 2019.11.03 at 16h 38m 41s.xml">
-      <configuration name="JsonPlaceholder.PostWithXml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -538,7 +546,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60459495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45707375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -564,7 +572,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add requestSpecification" />
     <MESSAGE value="add responseSpecification" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responseSpecification" />
+    <MESSAGE value="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -784,7 +793,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonPlaceholder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="66" column="66" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
+          <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,10 +820,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar!/io/restassured/response/ResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        <state relative-caret-position="960">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
