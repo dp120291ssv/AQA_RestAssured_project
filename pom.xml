@@ -32,5 +32,11 @@
             <artifactId>rest-assured</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.1.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>

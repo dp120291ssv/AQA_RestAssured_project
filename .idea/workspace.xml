@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0075f1b-c390-4196-9f73-42c4095a3759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_uri_template_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_core_1_2_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_validator_2_2_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_schema_validator_4_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mailapi_1_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/googlePlacesJsonExample.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/udemyCourse.iml" afterPath="$PROJECT_DIR$/udemyCourse.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +66,20 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -60,6 +93,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>error</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -81,9 +119,10 @@
         <option value="$PROJECT_DIR$/src/main/java/constants/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonPlaceholder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/googlePlacesJsonExample.json" />
       </list>
     </option>
   </component>
@@ -211,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.validateXmlSchema">
+  <component name="RunManager" selected="TestNG.FirstTest.validateJsonSchema">
     <configuration name="FirstTest.getAllDataFromSwapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="udemyCourse" />
@@ -293,7 +332,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.validateJsonSchema" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="udemyCourse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -301,7 +340,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="getSwapiPeopleResourcesAssertionExample" />
+      <option name="METHOD_NAME" value="validateJsonSchema" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -428,19 +467,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.validateJsonSchema" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.validateJsonSchema" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
       </list>
     </recent_temporary>
   </component>
@@ -521,38 +560,45 @@
       <option name="project" value="LOCAL" />
       <updated>1573220079817</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add validateXmlSchema">
+      <created>1573222617926</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573222617926</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 30m 50s.xml">
-      <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 16h 55m 09s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 31m 05s.xml">
-      <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 16h 57m 20s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 36m 40s.xml">
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 16h 58m 40s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 16h 59m 38s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 16h 59m 49s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 17h 00m 03s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateJsonSchema - 2019.11.08 at 17h 01m 14s.xml">
+      <configuration name="FirstTest.validateJsonSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 54m 34s.xml">
       <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 37m 54s.xml">
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 56m 33s.xml">
       <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 45m 22s.xml">
-      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 48m 24s.xml">
-      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 49m 45s.xml">
-      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 07m 17s.xml">
-      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 14m 12s.xml">
-      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 15m 23s.xml">
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 17h 01m 08s.xml">
       <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -569,7 +615,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6154776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6154776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -596,7 +642,8 @@
     <MESSAGE value="add responseSpecification" />
     <MESSAGE value="add tests getSwapiPeopleResourcesAssertionExample и getSwapiAllResourcesAssertionExample" />
     <MESSAGE value="add tests for extract()&#10;add assertions with Hamcrest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests for extract()&#10;add assertions with Hamcrest" />
+    <MESSAGE value="add validateXmlSchema" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validateXmlSchema" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,7 +675,7 @@
         <state relative-caret-position="930">
           <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,7 +684,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +715,7 @@
         <state relative-caret-position="930">
           <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,7 +724,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,7 +754,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,7 +765,7 @@
         <state relative-caret-position="930">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,7 +784,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,7 +805,7 @@
         <state relative-caret-position="495">
           <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -779,7 +834,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,7 +845,7 @@
         <state relative-caret-position="405">
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,7 +864,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +904,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,7 +937,7 @@
         <state relative-caret-position="930">
           <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
@@ -924,11 +977,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/googlePlacesJsonExample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="157" column="26" lean-forward="false" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
