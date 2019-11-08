@@ -1,18 +1,14 @@
 import config.TestConfig;
-import io.restassured.http.Cookie;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
 import java.util.Map;
-
 import static constants.Constants.Actions.SWAPI_GET_PEOPLE;
 import static constants.Constants.Path.SWAPI_PATH;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class FirstTest extends TestConfig{
-
 	@Test
 	public void myFirstTest() {
 		given().
