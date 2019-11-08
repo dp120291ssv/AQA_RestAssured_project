@@ -6,6 +6,7 @@ import java.util.Map;
 import static constants.Constants.Actions.SWAPI_GET_PEOPLE;
 import static constants.Constants.Path.SWAPI_PATH;
 import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.matchesXsdInClasspath;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class FirstTest extends TestConfig{
@@ -73,5 +74,12 @@ public class FirstTest extends TestConfig{
 
 		String contetnType = response.getHeader("Content-Type");
 		System.out.println("Content-Type--> " + contetnType);
+	}
+
+	@Test
+	public void validateXmlSchema(){
+		given().log().uri()
+		.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/xml?key=AIzaSyBMH2tPpMXxirx7L1uw2et_jCSfOW2ZksM&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
+		.then().body(matchesXsdInClasspath("googlePlacesXmlExample.xsd")).log().body();
 	}
 }

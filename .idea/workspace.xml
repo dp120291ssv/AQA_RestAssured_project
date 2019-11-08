@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0075f1b-c390-4196-9f73-42c4095a3759" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
     </list>
@@ -19,7 +21,7 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/constants/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="0">
               <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,21 +45,9 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="600">
+              <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonPlaceholder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JsonPlaceholder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="66" column="66" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -88,10 +78,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/config/BaseClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/constants/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonPlaceholder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
       </list>
     </option>
@@ -102,6 +93,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
@@ -171,6 +168,13 @@
               <item name="udemyCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemyCourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemyCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemyCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,34 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.getAllDataFromSwapi">
-    <configuration name="FirstTest.AssertionExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="udemyCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="AssertionExample" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
+  <component name="RunManager" selected="TestNG.FirstTest.validateXmlSchema">
     <configuration name="FirstTest.getAllDataFromSwapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="udemyCourse" />
@@ -343,6 +320,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="FirstTest.validateXmlSchema" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="udemyCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="validateXmlSchema" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -424,19 +428,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.AssertionExample" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.validateXmlSchema" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FirstTest.getAllDataFromSwapi" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FirstTest.getCookieFromSwapi" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FirstTest.getHeadersFromSwapi" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.getSwapiPeopleResourcesAssertionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -510,39 +514,46 @@
       <option name="project" value="LOCAL" />
       <updated>1573132737765</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add tests for extract()&#10;add assertions with Hamcrest">
+      <created>1573220079817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573220079817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_AssertionExample - 2019.11.07 at 10h 58m 46s.xml">
-      <configuration name="FirstTest.AssertionExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 08m 14s.xml">
-      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 09m 06s.xml">
-      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getAllDataFromSwapi - 2019.11.07 at 15h 15m 31s.xml">
-      <configuration name="FirstTest.getAllDataFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getCookieFromSwapi - 2019.11.07 at 14h 50m 21s.xml">
-      <configuration name="FirstTest.getCookieFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getHeadersFromSwapi - 2019.11.07 at 14h 45m 38s.xml">
-      <configuration name="FirstTest.getHeadersFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getHeadersFromSwapi - 2019.11.07 at 14h 46m 51s.xml">
-      <configuration name="FirstTest.getHeadersFromSwapi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 24m 39s.xml">
-      <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 30m 50s.xml">
       <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FirstTest_getSwapiPeopleResourcesAssertionExample - 2019.11.07 at 11h 31m 05s.xml">
       <configuration name="FirstTest.getSwapiPeopleResourcesAssertionExample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 36m 40s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 37m 54s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 45m 22s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 48m 24s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 15h 49m 45s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 07m 17s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 14m 12s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_validateXmlSchema - 2019.11.08 at 16h 15m 23s.xml">
+      <configuration name="FirstTest.validateXmlSchema" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -551,17 +562,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45707375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6154776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26609442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -572,7 +584,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -846,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2235">
@@ -880,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/constants/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="0">
           <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,10 +908,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/googlePlacesXmlExample.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="600">
+          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="33" />
           <folding />
         </state>
       </provider>
