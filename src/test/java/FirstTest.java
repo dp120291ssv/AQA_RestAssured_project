@@ -80,14 +80,14 @@ public class FirstTest extends TestConfig{
 	@Test
 	public void validateXmlSchema(){
 		given().log().uri()
-		.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/xml?key=AIzaSyBMH2tPpMXxirx7L1uw2et_jCSfOW2ZksM&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
+		.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/xml?key=apiKey&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
 		.then().body(matchesXsdInClasspath("googlePlacesXmlExample.xsd")).log().body();
 	}
 
 	@Test
 	public void validateJsonSchema(){
 		given().log().uri()
-			.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=AIzaSyBMH2tPpMXxirx7L1uw2et_jCSfOW2ZksM&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
+			.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=apiKey&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
 			.then().body(matchesJsonSchemaInClasspath("googlePlacesJsonExample.json")).log().body();
 	}
 }
