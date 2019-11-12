@@ -90,4 +90,26 @@ public class FirstTest extends TestConfig{
 			.when().get("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key={apiKey}&input=New York&inputtype=textquery&fields=formatted_address,geometry,icon,name,permanently_closed,photos,place_id,plus_code,types&language=ru")
 			.then().body(matchesJsonSchemaInClasspath("googlePlacesJsonExample.json")).log().body();
 	}
+
+	@Test
+	public void chooseMapOfElementsWithSomeKey(){
+		Response response = given().spec(requestSpecificationSwapi)
+			.log().uri()
+			.when().get(SWAPI_PATH + SWAPI_GET_PEOPLE);
+
+		Map<String, ?> someObjectElements = response
+			.path("results.find { it.name == 'Darth Vader'}");
+		System.out.println("someObjectElements--> " + someObjectElements);
+	}
+
+	@Test
+	public void chooseSingleElementWithSomeKey(){
+		Response response = given().spec(requestSpecificationSwapi)
+			.log().uri()
+			.when().get(SWAPI_PATH + SWAPI_GET_PEOPLE);
+
+		String name = response
+			.path("results.find { it.name == 'Darth Vader'}.url");
+		System.out.println("name--> " + name);
+	}
 }

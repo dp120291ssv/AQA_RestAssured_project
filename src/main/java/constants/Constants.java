@@ -10,7 +10,6 @@ public class Constants {
 	public static class RunVariables {
 		public static String server = JSON_PLACEHOLDER_URL;
 		public static String path = "";
-
 	}
 
 	public static class Server {

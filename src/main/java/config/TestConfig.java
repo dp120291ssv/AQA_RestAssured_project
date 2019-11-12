@@ -40,7 +40,5 @@ public class TestConfig {
 	public static void setUp() {
 		RestAssured.baseURI = server;
 		RestAssured.basePath = path;
-
-
 	}
 }
