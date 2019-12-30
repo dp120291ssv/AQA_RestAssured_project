@@ -1,0 +1,5 @@
+.gitignore
+*.properties
+target/
+test-output/
+.idea/

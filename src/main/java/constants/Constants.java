@@ -1,5 +1,7 @@
 package constants;
 
+import api.utils.Utils;
+
 public class Constants {
 
 	public static class Server {
@@ -14,4 +16,6 @@ public class Constants {
 		//GOOGLE_PLACES
 		public static final String GOOGLE_PLACES_SEARCH_ENDPOINT = "findplacefromtext/json";
 	}
+
+	public final static String API_TOKEN_FOR_GOOGLE = Utils.getValue("TOKEN");
 }

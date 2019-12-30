@@ -1,36 +1,33 @@
 package api.utils;
 
-import org.testng.annotations.Test;
-
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 public class Utils {
 
 
-	@Test
-	public void readeFromProperty() {
-
-		try (InputStream input = getClass().getClassLoader().getResourceAsStream("userData.properties")) {
-
-			Properties prop = new Properties();
-
-			if (input == null) {
-				System.out.println("Sorry, unable to find config.properties");
-				return;
-			}
-
-			//load a properties file from class path, inside static method
-			prop.load(input);
-
-			//get the property value and print it out
-			System.out.println(prop.getProperty("SERGEI"));
-
-
-		} catch (IOException ex) {
-			ex.printStackTrace();
+	public static String getValue(String value) {
+		Properties props = new Properties();
+		try {
+			FileInputStream stream = new FileInputStream("src/test/resources/userData.properties");
+			props.load(stream);
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found!");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("IO Error!");
+			e.printStackTrace();
 		}
 
+		String data = props.getProperty(value);
+		try {
+			data = new String(data.getBytes("ISO8859-1"), "UTF-8");
+		} catch (Exception e) {
+			System.out.println("NOT FOUND PROPERTY: "+value+" in file userData.properties");
+			e.printStackTrace();
+		}
+		return data;
 	}
 }
